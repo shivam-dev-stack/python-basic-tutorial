@@ -1,6 +1,5 @@
 import random
 
-
 choice = ["rock", "paper", "scissors"]
 
 choice_u = int(input("enter your choice  rock:1, paper:2, scissors:3\n"))
@@ -36,7 +35,6 @@ ui = [ '''
 
 '''
 ]
-
 
 if choice_u > 3 or choice_u < 1:
     print("invalid input")
